@@ -1,0 +1,504 @@
+
+
+<!doctype html>
+<html lang="en">
+ 
+<!-- Mirrored from www.getlinks.info/love/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jul 2022 14:41:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+
+    
+   <title>Love Calculator Prank</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+  <meta name="description" content="Love Calculator Prank">
+  <meta property="og:title" content="Know who is your friend's Crush" />
+  <meta property="og:image" content="lovelogo.png" />
+   <meta name="theme-color" content="#fa7ebd"/>
+  
+  
+ 
+
+  <link rel="stylesheet" type="text/css" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../stylesheets/mainb4ae.css?v=680" />
+ <link rel='stylesheet' href='../../use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+ <link rel="manifest" href="https://www.getlinks.info/manifest.json">  
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<!--<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase-messaging.js"></script>
+<script src="/push/pushnotify.js?v=95"></script> -->
+<script src="../../cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+<style>
+    @import url("https://fonts.googleapis.com/css?family=Sniglet");
+.deletingtr{
+  -webkit-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Safari 4+ */
+  -moz-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Fx 5+ */
+  -o-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Opera 12+ */
+  animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%, 49% {
+    background-color:  #ef5350;
+  }
+  50%, 100% {
+    background-color:white;
+  }
+}
+
+
+.question-div,#quizeques{
+display:none
+}
+#results{
+display:none
+}
+#creating{
+display:none
+}
+.navbar{
+border-color:#fa7ebd;
+}
+
+.navbar-inverse {
+    background-color: #fa7ebd !important;
+}
+body{
+  background-image: url(pink-bg5.jpg);
+}
+
+</style>
+
+ </head>
+ <body>
+ 
+
+ <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+  <div class="container">
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <a style="background-color: #fa7ebd !important;"  href="index.html">   <img src="lovelogo.png" width="83" height="32" style="margin-left:3px"></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+<div class="container">
+
+
+<div ng-view="" class="ng-scope" id="entername">
+  <img src="Pink-Heart-Transparent-Background.png" height="100px">
+<h1 id="whoare" style="margin-top: 2px;margin-bottom: 0px" class="ng-scope">Know Secret Crush of your Friends</h1>
+<p>TRICK THEM INTO TELLING YOU!</p>
+  
+
+  <form> 
+    <input type="text" name="name" class="text-input ng-pristine ng-untouched ng-valid ng-scope" placeholder="Enter Your Name" id="nametb" ng-model="name"><br class="ng-scope">
+
+     <input type="number" name="name" class="text-input ng-pristine ng-untouched ng-valid ng-scope" placeholder="Enter Any 4 Digit Password" 
+oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+ maxlength="4" id="pwdtb" ng-model="name"><br class="ng-scope" required><p style="color: red" id="error"></p>
+   </form>
+ 
+
+    <a class="normal-button ng-binding ng-scope" onclick="signUp()" style="margin-bottom:20px">Create Link  
+    <span class="glyphicon glyphicon-hand-right"></span>
+    </a>
+
+     <article class="message is-warning is-small" style=" font-size:1.3rem;">
+<div class="message-header" style="background-color:#ffdd57; font-size:1.7rem;border-radius: 50px 50px 0px 0px;" >How to Play <i style="top:3px;" class="glyphicon glyphicon-info-sign"></i>
+</div>
+<div class="message-body content"><b>
+<ul style="background-color:#fffdf5;text-align:left;border-radius: 0px 0px 20px 20px;">
+<li>Create your personal Love Calculator link.</li>
+<li>Share Your link with your friends via Whatsapp/Facebook</li>
+<li>Tell them it's a Real love calculator, When they open Link it looks like Real love Calculator Website.</li>
+<li>Once Your Friend Enter Crush's Name to Calculate Love, you'll get Results in your Dashboard.</li>
+</ul></b>
+</div>
+</article>
+
+
+<p>☝️☝️ READ INSTRUCTIONS CAREFULLY ☝️☝️</p>
+
+<p>Already Created Link?</p>
+<a class="normal-button pink-rounded" style="margin-bottom: 5px;height: 24px; line-height: 1.5; " href="loginwithpin.html">Login Now</a>
+
+<br>
+  
+
+<center>
+
+
+</center>
+</div>
+
+
+<div id="creating">
+        <h2 class="ng-binding ng-scope">Creating Link</h2>
+
+
+  <div ng-hide="hideIndicator" class="ng-scope">  
+  <div class="spinner">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+  </div>
+  
+</div>
+</div>
+
+
+
+
+
+<style>
+#footer {
+    height: 110px;
+   
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+	font: 18px arial, sans-serif;
+}
+
+.declaimer
+{
+color : #7C7E83;
+font: 12px arial, sans-serif;
+
+}
+
+.copyrights
+{
+color : #7C7E83;
+font: 15px arial, sans-serif;
+font-weight:bold;
+
+}
+.dots
+{
+font: 18px arial, sans-serif;
+color : #566AF7;
+}
+
+</style>
+
+
+
+
+<footer>
+<hr style="margin-bottom: 5px;">
+ <div>
+ <center>
+
+ 	
+<center>
+
+<br>
+
+
+<center>
+ FOLLOW US<br>
+<a class="normal-button pink-rounded fab fa-instagram" target="_blank" style="margin-bottom: 5px;height: 24px; line-height: 1.5; "  href="https://www.instagram.com/_u/interstingapps/">
+</a>
+<a class="normal-button pink-rounded fab fa-facebook" target="_blank" style="margin-bottom: 5px;height: 24px;background-color: #3b5998; line-height: 1.5; "  href="https://www.facebook.com/myinterstingapps/">
+</a>
+</center>
+
+<a class="normal-button pink-rounded" style="margin-bottom: 5px;height: 24px;background-color: #00d1b2; line-height: 1.5; " href="https://www.getlinks.info/contact"><i class="glyphicon glyphicon-paste"></i> Give Feedback</a>
+<a class="normal-button pink-rounded" style="margin-bottom: 5px;height: 24px;background-color: #00d1b2; line-height: 1.5;" href="https://www.getlinks.info/more" ><i class="glyphicon glyphicon-phone"></i> More apps</a>
+
+
+
+
+
+<p class="declaimer">Disclaimer: All content is provided for fun and entertainment purposes only</p>
+<p class="copyrights">&#169; 2019 getLinks.info</p>
+<p style="margin-top:-10px "><a target="_blank" href="https://www.getlinks.info/about-us">About Us</a> |<a <a target="_blank" href="https://www.getlinks.info/privacy-policy"> Privacy Policy </a> | <a <a target="_blank" href="https://www.getlinks.info/tnc"> Terms of Use</a></p>
+
+</center>
+ 
+ 
+</center>
+ </div>
+</footer>
+</section>
+</div>
+
+
+ 
+
+<script>
+/*try{
+ requestPer();
+}catch(err){
+}*/
+
+
+ 
+var name="null";
+var qlink="";
+
+var timeoutVar;
+
+
+function signUp(){
+  if($("#nametb").val()==""){
+     $("#error").text("Enter Your Name");
+        return;
+    
+  }
+    
+
+   var pwd=$("#pwdtb").val();
+
+   if(pwd.length<4){
+        $("#error").text("Enter 4 Digit Password");
+        return;
+    }
+
+   $("#entername").hide();
+  $("#creating").show();
+
+  var name=$("#nametb").val();
+$.ajax({
+    url: 'createj.php?name='+name+"&pwd="+pwd,
+    type: 'GET',
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json', 
+    async: false,
+    success: function(msg) {
+            if(!msg.error){
+            window.location="index.html";
+           }
+
+    }
+
+    ,
+  error:function(msg) {
+        alert("Something went Wrong");
+         $("#entername").hide();
+        $("#creating").show();
+
+    }
+});
+
+
+
+
+}
+
+
+  function doAjax() {
+        console.log("Fetching...");
+
+        $("#refreshbtn").html('Refreshing...');
+
+        $.ajax({    //create an ajax request to load_page.php
+        type: "GET",
+                cache: false,
+                url: "displaynewtest.php?pageNumber=0",
+                dataType: "html", //expect html to be returned                
+                success: function(response){
+                $("#responsecontainer").html(response);
+
+                //alert(response);
+                },
+
+        }).always(function( data ) {
+        console.log("Fetched.");
+        $("#refreshbtn").html('<i class="glyphicon glyphicon-ok"></i> Refreshed');
+
+        var baba = setInterval(function() {           
+            $("#refreshbtn").html('<i class="glyphicon glyphicon-refresh"></i> Refresh');
+            clearInterval(baba);
+        }, 5000);
+
+
+          //if(st)
+          clearTimeout(timeoutVar);
+          timeoutVar=setTimeout(doAjax, 30000);
+        
+
+
+    
+  });
+        
+}
+
+if(name!="null"){
+doAjax();
+}
+
+
+function deleteQuize(){
+if(confirm("Are you sure you want to delete this quiz and create a new one?!")){
+$.ajax({
+    url: 'delete.php',
+    type: 'GET',
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json', 
+    async: false,
+    success: function(msg) {
+        if(!msg.error){
+      window.location.href = "https://www.getlinks.info/home";
+    }
+
+    },
+  error:function(msg) {
+        alert("Something went Wrong");
+    }
+});
+
+}
+}
+
+function goToWhatsapp(){
+    
+    window.location.href = "whatsapp://send?text=*"+ name +"'s Crush Loves him "+Math.floor((Math.random() * 10) + 90)+"% 🥰* %0A%0A*How Much Your Crush Loves You?🤔*%0A %0A Check out now 👇%0A"+qlink;
+  }
+
+  function goToFacebook(){
+    
+    //$window.location.href = "http://facebook.com/sharer.php?u=http://qzoobie.com/quiz/"+$scope.qUID;
+    window.open("https://facebook.com/sharer.php?u="+encodeURIComponent(qlink));
+  }
+  
+  function goToMessenger(){
+    
+    window.location.href = "fb-messenger://share/?link="+encodeURIComponent(qlink);
+  } 
+
+  function goToInsta(){
+    if (navigator.share) {
+		  navigator.share({
+			title: 'Love Calculator',
+      text: name +"'s Crush Loves him "+Math.floor((Math.random() * 10) + 90)+"% 🥰\n\nHow Much Your Crush Loves You?🤔\n\nCheck out now 👇\n",
+			url: qlink,
+		  });
+  }else{
+    Swal.fire({
+				title:'Share on Instrgram',
+				html:'<p class="has-text-left" style="font-size:20px;margin:2px">Step 1: Copy your Quiz Link</p><br/><p style="font-size:20px;margin:2px" class="has-text-left">Step 2: Send Quiz Link as DM(Message) to your Friends</p>'
+  });
+}
+}
+
+
+   function deleteCrush(ansid){
+    bootbox.confirm({
+        buttons: {
+        confirm: {
+            label: 'Yes',
+            className: 'btn-danger'
+        },
+        cancel: {
+            label: 'No'
+        }
+    },
+    message:"<h3>Are You sure you want to delete?</h3>",
+
+    callback :  function(result){ 
+           if(result){
+             $("#"+ansid).addClass("deletingtr");
+      $.ajax({
+    url: 'deletecrush.php?entid='+ansid,
+    type: 'GET',
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'json', 
+    async: true,
+    success: function(msg) {
+        if(!msg.error){
+    doAjax(false);
+   // window.location.reload();
+     }else{
+     // window.location.reload();
+     }
+ 
+    },
+  error:function(msg) {
+        window.location.reload();
+    }
+   });
+ }
+
+}}).find('.modal-content').css({
+    'margin-top': function (){
+        var w = $( window ).height();
+        var b = $(".modal-dialog").height();
+        // should not be (w-h)/2
+        var h = (w-b)/2;
+        return (h-60)+"px";
+    }
+});
+   }
+
+
+   function copyLink(){
+  const el = document.createElement('textarea');
+  el.value = "*"+ name +"'s Crush Loves him "+Math.floor((Math.random() * 10) + 90)+"% , How Much Your Crush Loves You?* Check out now " +qlink;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  document.body.removeChild(el);
+  
+ $("#cctocopy").html('<i class="far fa-thumbs-up" id="icon"></i> Copied');
+ var baba = setInterval(function() {$("#cctocopy").html('Copy Link'); clearInterval(baba); }, 5000);
+}
+   
+
+
+
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136327487-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136327487-1');
+</script>
+
+<script type="text/javascript" data-cfasync="false"> 
+ var _foxpush = _foxpush || []; 
+ _foxpush.push(['_setDomain', 'getlinksinfo']); 
+ (function(){ 
+ var foxscript = document.createElement('script'); 
+ foxscript.src = '../../cdn.foxpush.net/sdk/foxpush_SDK_min.js'; 
+ foxscript.type = 'text/javascript'; 
+ foxscript.async = 'true'; 
+ var fox_s = document.getElementsByTagName('script')[0]; 
+ fox_s.parentNode.insertBefore(foxscript, fox_s);})(); 
+ </script>
+
+<!--
+<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
+<script>
+var truepush = window.truepush || [];
+truepush.push(function(){
+    truepush.Init({
+        id: "5e7f7fba4eb7733e846490ce"
+        }, function(error){
+          if(error) console.error(error);
+        })
+    })
+</script>
+-->
+
+
+ </body>
+
+<!-- Mirrored from www.getlinks.info/love/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Jul 2022 14:41:08 GMT -->
+</html>
